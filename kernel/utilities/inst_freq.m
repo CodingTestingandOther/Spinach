@@ -54,8 +54,8 @@ end
 
 % Consistency enforcement
 function grumble(signal,dt)
-if (~isnumeric(signal))||(~isvector(signal))||isempty(signal)
-    error('signal must be a non-empty numeric vector.');
+if (~isnumeric(signal))||(~isvector(signal))||isempty(signal)||isreal(signal)
+    error('signal must be a non-empty complex numeric vector.');
 end
 if numel(signal)<3
     error('signal must contain at least three points.');
