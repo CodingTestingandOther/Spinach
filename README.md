@@ -1,3 +1,5 @@
+This is a fork of Spinach
+
 Spinach is a fast (polynomial complexity scaling for liquid state NMR) open-source 
 spin dynamics simulation library that supports NMR, EPR, MRI, DNP, MAS, Optimal Control,
 PHIP, singlet state NMR, and other forms of Magnetic Resonance spectroscopy. Historical
